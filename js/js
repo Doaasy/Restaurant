@@ -1,0 +1,14 @@
+<script>
+  // احصل على العناصر
+  var priceButton = document.getElementById("priceButton");
+  var ingredientsButton = document.getElementById("ingredientsButton");
+
+  // قم بتعيين السلوك عند النقر على الأزرار
+  priceButton.addEventListener("click", function() {
+    alert("السعر: $10")
+  ;
+
+  ingredientsButton.addEventListener("click", function() {
+    alert("المكونات: فطر، طماطم، جبنة، صلصة")
+  );
+</script>
